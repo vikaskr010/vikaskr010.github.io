@@ -1,0 +1,44 @@
+/* google fount*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Single-font: "singlet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --lobstar: "loobstar", cursive;
+    --light-block: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom,
+            #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.877);
+
+}
+
+header a {
+    font-family: var(--Single-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+
+}
+
+header {
+    background: #dd2476;
+    background: var(--bggradient);
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgb(red, green, blue)
+}
